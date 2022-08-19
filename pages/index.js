@@ -12,6 +12,10 @@ export default function Home() {
         <title>Supuni Eleesha Randeniya</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
+          name="google-site-verification"
+          content="_UsbMQIdkSJEc-THbcB8QPAyB38IelLwY-4lQCceYn8"
+        />
+        <meta
           name="description"
           content="Supuni Eleesha Randeniya is a Software Engineering Student at SLIIT"
         />
