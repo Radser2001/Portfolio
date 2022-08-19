@@ -10,3 +10,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
