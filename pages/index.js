@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="google-site-verification"
-          content="_UsbMQIdkSJEc-THbcB8QPAyB38IelLwY-4lQCceYn8"
+          content="1rxdX59vrlFHl57frl5ikNBk0WrXtmp7vxu-rH5xwBE"
         />
         <meta
           name="description"
