@@ -4,6 +4,7 @@ import sms from "../public/sms.png";
 import todoApp from "../public/todoApp.png";
 import breakingBad from "../public/Breaking-Bad.png";
 import weatherapp from "../public/weatherapp.png";
+import products from "../public/productCRUD.png";
 
 const Projects = () => {
   return (
@@ -180,6 +181,42 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://weatherapp-radser2001.herokuapp.com/"
+                >
+                  <p className="text-md bg-sky-500 p-1 px-2 rounded cursor-pointer">
+                    Check it out!
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div
+              id="project6"
+              className="bg-slate-800 p-10 flex flex-col items-center justify-center rounded-xl md:ml-0 md:mr-0 mb-20 sm:max-w-xs m-6 md:max-w-md lg:max-w-none"
+            >
+              <h1 className="mb-10 text-3xl text-center">
+                Online Product Management System
+              </h1>
+              <Image
+                src={products}
+                alt="Product CRUD"
+                width={400}
+                height={300}
+              />
+              <div className="flex flex-wrap items-center justify-center gap-3 mt-7">
+                <h1 className=" bg-slate-600 font-bold text-sky-500 p-1 md:p-3 rounded-md text-center w-22 sm:text-sm md:text-xl">
+                  Laravel
+                </h1>
+                <h1 className=" bg-slate-600 font-bold text-sky-500 p-1 md:p-3 rounded-md text-center w-22 sm:text-sm md:text-xl">
+                  NuxtJS
+                </h1>
+                <h1 className=" bg-slate-600 font-bold text-sky-500 p-1 md:p-3 rounded-md text-center w-22 sm:text-sm md:text-xl">
+                  TailwindCSS
+                </h1>
+              </div>
+              <div className="mt-10">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Radser2001/Online-Product-Management-System"
                 >
                   <p className="text-md bg-sky-500 p-1 px-2 rounded cursor-pointer">
                     Check it out!
