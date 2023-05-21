@@ -49,7 +49,7 @@ const HomeContent = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1EpQGoa7d93DDwwcCFkeue0BlFR0dey_R/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eW7lYeSVYgucAV5ZO29fG3FqSgDy0CCM/view?usp=sharing"
             className="text-xl md:text-2xl transition ease-in duration-100 bg-sky-500 hover:bg-sky-600 p-3 rounded"
           >
             Resume

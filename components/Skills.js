@@ -28,6 +28,15 @@ const Skills = () => {
               NextJS
             </h1>
             <h1 className="bg-slate-600 font-bold text-sky-400 p-2 md:p-5 rounded-md text-center sm:text-base md:text-3xl w-full lg:w-9/12">
+              MaterialUI
+            </h1>
+            <h1 className="bg-slate-600 font-bold text-sky-400 p-2 md:p-5 rounded-md text-center sm:text-base md:text-3xl w-full lg:w-9/12">
+              TailwindCSS
+            </h1>
+            <h1 className="bg-slate-600 font-bold text-sky-400 p-2 md:p-5 rounded-md text-center sm:text-base md:text-3xl w-full lg:w-9/12">
+              Kotlin
+            </h1>
+            <h1 className="bg-slate-600 font-bold text-sky-400 p-2 md:p-5 rounded-md text-center sm:text-base md:text-3xl w-full lg:w-9/12">
               TypeScript
             </h1>
             <h1 className="bg-slate-600 font-bold text-sky-400 p-2 md:p-5 rounded-md text-center sm:text-base md:text-3xl w-full lg:w-9/12">
