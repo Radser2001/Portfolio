@@ -31,7 +31,7 @@ const Projects = () => {
     setSelectedLanguage(null);
   };
   return (
-    <div id="allProjects" className=" overflow-x-hidden">
+    <div id="allProjects" className=" overflow-x-hidden overflow-y-hidden">
       <Head>
         <title>Projects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -47,7 +47,7 @@ const Projects = () => {
             placeholder="Search projects..."
             value={searchInput}
             onChange={handleSearchInputChange}
-            className="input input-bordered mt-8 input-info w-full max-w-xs"
+            className="input input-bordered bg-[#1D232A] text-white mt-8 input-info w-full max-w-xs"
           />
           <div className="dropdown">
             <div
@@ -61,7 +61,7 @@ const Projects = () => {
               {skills.map((language, index) => (
                 <li key={index}>
                   <button
-                    className=" text-left hover:bg-[#1D232A] p-1"
+                    className=" text-left hover:bg-[#1D232A] p-2 rounded"
                     onClick={() => handleLanguageClick(language)}
                   >
                     {language}
@@ -81,8 +81,7 @@ const Projects = () => {
           <p className="text-center mt-20 text-xl">
             {filteredProjects.length} result
             {filteredProjects.length === 1 ? "" : "s"} for projects developed
-            using
-            {selectedLanguage}
+            using {selectedLanguage}
           </p>
         )}
         <div className="flex justify-center items-center ">
