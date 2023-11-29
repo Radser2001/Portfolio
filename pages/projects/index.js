@@ -1,6 +1,6 @@
 import Image from "next/image";
-import projectsData from "./data/list";
-import skills from "./data/skills";
+import projectsData from "../../lib/list";
+import skills from "../../lib/skills";
 import ProjectCard from "../../components/ProjectCard";
 import { useState } from "react";
 import Footer from "../../components/Footer";
