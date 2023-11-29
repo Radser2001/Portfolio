@@ -16,7 +16,7 @@ const ProjectCard = ({ projectName, image, techStack, projectUrl }) => {
             return (
               <h1
                 key={index}
-                className=" bg-slate-600 font-bold text-sky-500 p-1 md:p-3 rounded-md text-center w-34 sm:text-sm md:text-xl"
+                className=" bg-slate-600 font-bold text-sky-500 p-1 md:p-3 rounded-md text-center w-34 sm:text-sm md:text-sm"
               >
                 {tech}
               </h1>
@@ -25,7 +25,7 @@ const ProjectCard = ({ projectName, image, techStack, projectUrl }) => {
         </div>
         <div className="mt-10">
           <a target="_blank" rel="noopener noreferrer" href={projectUrl}>
-            <p className="text-md bg-sky-500 p-1 px-2 rounded cursor-pointer">
+            <p className="text-lg bg-sky-500 p-1 px-2 rounded cursor-pointer">
               Check it out!
             </p>
           </a>

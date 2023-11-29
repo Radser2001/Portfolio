@@ -20,14 +20,13 @@ export default function Home() {
           content="Supuni Eleesha Randeniya is a Software Engineering Student at SLIIT"
         />
       </Head>
-      <div className="bg-[#131313] text-white">
-        <Nav />
-        <div className="md:pl-30 lg:pl-40 md:p-10">
-          <HomeContent />
-          <Skills />
-          <Projects />
-          <Footer />
-        </div>
+
+      <Nav />
+      <div className="md:pl-30 lg:pl-40 md:p-10">
+        <HomeContent />
+        <Skills />
+        <Projects />
+        <Footer />
       </div>
     </>
   );
