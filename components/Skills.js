@@ -3,7 +3,7 @@ import skills from "../lib/skills";
 const Skills = () => {
   return (
     <>
-      <div id="Skills" className="mt-24 m-4 md:mt-40 font-mono">
+      <div id="Skills" className="mt-24 ml-2 md:ml-0 mr-2 md:mt-40 font-mono">
         <h1 className="uppercase font-semibold  text-center md:text-left text-3xl sm:text-6xl">
           Skills
         </h1>

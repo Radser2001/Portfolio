@@ -41,7 +41,7 @@ const Projects = () => {
           <Link href="/">Home</Link> &#707; All Projects
         </h1>
 
-        <div className="text-center flex flex-row items-center justify-center">
+        <div className="text-center mt-4  mb-4 md:mt-10 md:mb-10 flex flex-row items-center justify-center">
           <input
             type="text"
             placeholder="Search projects..."
