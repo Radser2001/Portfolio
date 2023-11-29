@@ -1,5 +1,4 @@
-import Image from "next/image";
-import projectsData from "../../lib/list";
+import projectsData from "../../lib/projectsList";
 import skills from "../../lib/skills";
 import ProjectCard from "../../components/ProjectCard";
 import { useState } from "react";
@@ -55,7 +54,7 @@ const Projects = () => {
               role="button"
               className="mt-8 text-base text-white md:text-xl btn bg-sky-500 hover:bg-sky-600"
             >
-              {selectedLanguage || "Language"}
+              {selectedLanguage || "Technology"}
             </div>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-[#131313] rounded w-96 h-80">
               {skills.map((language, index) => (

@@ -47,12 +47,10 @@ const HomeContent = () => {
         </div>
         <div className="mt-10 text-center lg:text-left ">
           <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1eW7lYeSVYgucAV5ZO29fG3FqSgDy0CCM/view?usp=sharing"
+            href="mailto:supuni.randeniya@gmail.com"
             className="text-xl md:text-2xl transition ease-in duration-100 bg-sky-500 hover:bg-sky-600 p-3 rounded"
           >
-            Resume
+            Contact Me &#8594;
           </a>
         </div>
       </div>
