@@ -5,6 +5,7 @@ import { useState } from "react";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import Head from "next/head";
+import Nav from "../../components/Nav";
 
 const Projects = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -13,9 +14,7 @@ const Projects = () => {
   const filteredProjects = projectsData?.filter(
     (project) =>
       (searchInput === "" ||
-        project.projectName
-          .toLowerCase()
-          .includes(searchInput.toLowerCase())) &&
+        project.name.toLowerCase().includes(searchInput.toLowerCase())) &&
       (!selectedLanguage || project.techStack.includes(selectedLanguage))
   );
   const handleSearchInputChange = (event) => {
@@ -34,6 +33,7 @@ const Projects = () => {
       id="allProjects"
       className="bg-[#131313] overflow-x-hidden overflow-y-hidden"
     >
+      <Nav />
       <Head>
         <title>Projects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -97,10 +97,11 @@ const Projects = () => {
             {filteredProjects.map((project, index) => (
               <ProjectCard
                 key={index}
-                projectName={project.projectName}
+                name={project.name}
+                description={project.description}
                 image={project.image}
                 techStack={project.techStack}
-                projectUrl={project.projectUrl}
+                url={project.url}
               />
             ))}
           </div>
