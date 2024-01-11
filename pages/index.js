@@ -21,13 +21,15 @@ export default function Home() {
         />
       </Head>
 
-      <Nav />
-      <div className="md:pl-30 lg:pl-40 md:p-10">
-        <HomeContent />
-        <Skills />
-        <Projects />
+      <main className="w-full h-screen bg-[#131313] overflow-x-hidden overflow-y-scroll">
+        <Nav />
+        <div className="flex flex-col items-center ">
+          <HomeContent />
+          <Skills />
+          <Projects />
+        </div>
         <Footer />
-      </div>
+      </main>
     </>
   );
 }

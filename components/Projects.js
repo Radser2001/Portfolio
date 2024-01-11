@@ -83,13 +83,12 @@ const Projects = () => {
   ];
   return (
     <>
-      <div id="Projects" className="font-mono mt-40 lg:mr-40">
+      <div id="Projects" className="font-mono mt-32 md:mt-42">
         <h1 className="uppercase font-semibold text-center md:text-left text-3xl sm:text-6xl ">
           Projects
         </h1>
         <div className="flex flex-col justify-center items-center ">
-          {/* <div className="lg:grid lg:grid-cols-2 lg:gap-x-32 flex flex-col items-center justify-center mt-20"> */}
-          <div className="grid grid-cols-1 content-center xl:grid-cols-3 lg:gap-4 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-20">
             {projectsData.map((project, index) => (
               <ProjectCard
                 key={index}

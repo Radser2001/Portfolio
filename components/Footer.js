@@ -7,7 +7,7 @@ import mail from "../public/mail.png";
 const Footer = () => {
   return (
     <>
-      <div className="font-mono mt-40 lg:mr-40">
+      <div className="font-mono mt-40">
         <div className="flex justify-between items-center p-2">
           <div>
             <p className="text-md md:text-2xl">

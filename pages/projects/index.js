@@ -30,7 +30,10 @@ const Projects = () => {
     setSelectedLanguage(null);
   };
   return (
-    <div id="allProjects" className=" overflow-x-hidden overflow-y-hidden">
+    <div
+      id="allProjects"
+      className="bg-[#131313] overflow-x-hidden overflow-y-hidden"
+    >
       <Head>
         <title>Projects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
