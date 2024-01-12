@@ -21,7 +21,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="w-full h-screen bg-[#131313] overflow-x-hidden overflow-y-scroll">
+      <main className="w-full h-screen bg-slate-800 overflow-x-hidden overflow-y-scroll">
         <Nav />
         <div className="flex flex-col items-center ">
           <HomeContent />
