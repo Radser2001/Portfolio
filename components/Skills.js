@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
 import skills from "../lib/skills";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 
 const Skills = () => {
+  const carouselRef = useRef(null);
+  const { scrollYProgress } = useScroll({ container: carouselRef });
+  useMotionValueEvent(scrollYProgress, "change", (latest) => {
+    console.log("Page scroll: ", latest);
+  });
   return (
     <>
-      <div id="Skills" className="font-mono mt-32 md:mt-42">
-        <h1
-          data-aos="fade-up"
-          className="uppercase font-semibold text-center md:text-left text-3xl sm:text-6xl"
-        >
+      <div
+        ref={carouselRef}
+        style={{ scaleX: scrollYProgress }}
+        id="Skills"
+        className="font-mono mt-32 md:mt-42"
+      >
+        <h1 className="uppercase font-semibold text-center md:text-left text-3xl sm:text-6xl">
           Skills
         </h1>
 
@@ -16,7 +24,7 @@ const Skills = () => {
           <div className="grid grid-cols-3 md:grid-cols-4 gap-8 mt-20 ">
             {skills.map((skill, index) => (
               <div
-                className="border border-slate-600 hover:bg-slate-600 flex flex-col items-center justify-center font-bold text-sky-400  shadow-md p-2 md:p-5 rounded-sm text-center sm:text-base md:text-2xl  hover:-translate-y-2 hover:shadow-lg transform transition duration-500 ease-in-out"
+                className="border border-slate-600 rounded-sm hover:bg-slate-600 flex flex-col items-center justify-center font-bold text-sky-400  shadow-md p-2 md:p-5 text-center sm:text-base md:text-2xl  hover:-translate-y-2 hover:shadow-lg transform transition duration-500 ease-in-out"
                 key={index}
               >
                 <svg
