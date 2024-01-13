@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="text-xl text-center bg-sky-500 p-2 rounded cursor-pointer w-3/12">
-            <Link href="/projects">View More</Link>
+            <Link href="/projects">View More Projects</Link>
           </div>
         </div>
       </div>

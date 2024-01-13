@@ -10,7 +10,7 @@ const HomeContent = () => {
         <h1 className="uppercase md:h-12  text-center lg:text-left text-5xl md:text-7xl font-extrabold mt-9 mb-10">
           Hello World!
         </h1>
-        <h1 className="flex uppercase md:h-50 text-5xl md:text-7xl font-extrabold text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+        <h1 className="flex uppercase md:h-50 text-5xl md:text-7xl font-extrabold text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
           I&apos;m Supuni Eleesha Randeniya
         </h1>
         <h1 className="mt-10 text-xl md:text-3xl text-center lg:text-left">
@@ -48,7 +48,7 @@ const HomeContent = () => {
         <div className="mt-10 text-center lg:text-left ">
           <a
             href="mailto:supuni.randeniya@gmail.com"
-            className="text-xl md:text-2xl transition ease-in duration-100 border text-white border-sky-500 hover:bg-sky-600 p-3 rounded"
+            className="text-xl md:text-2xl transition ease-in duration-100 border text-white border-sky-400 hover:bg-sky-500 p-3 rounded"
           >
             Contact Me &#8594;
           </a>

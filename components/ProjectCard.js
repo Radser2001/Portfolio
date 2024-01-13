@@ -20,7 +20,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
 
   return (
     <div>
-      <div className="card w-72 rounded-md md:w-[350px] md:h-[320px] bg-base-100 shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-pointer duration-300 group">
+      <div className="card w-72 rounded-md md:w-[350px] md:h-[320px] bg-base-100 shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-default duration-300 group">
         <div className="card-body">
           <div className="flex flex-row justify-between">
             <svg
@@ -68,10 +68,18 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
                 });
                 handleMoreInfoClick();
               }}
-              className="btn bg-sky-500 text-white"
+              className="p-2 px-3 rounded-sm bg-sky-500 text-white transition-transform duration-300"
             >
-              More Info
+              Learn More
             </button>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 px-3 rounded-sm bg-sky-500 text-white transition-transform duration-300"
+            >
+              Github
+            </a>
           </div>
 
           <dialog id={dialogId} className="modal">
