@@ -48,7 +48,7 @@ const Nav = () => {
       </div>
       <div className="navbar-end hidden md:flex">
         <ul className="menu menu-horizontal px-1 text-lg lg:text-xl ">
-          <li className="hover:bg-slate-800">
+          <li>
             <Link href="/#Home">Home</Link>
           </li>
           <li>
