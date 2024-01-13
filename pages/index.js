@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import Head from "next/head";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import Experience from "../components/Experience";
 
 export default function Home() {
   return (
@@ -26,8 +27,9 @@ export default function Home() {
         className="w-full h-screen font-mono bg-slate-800 text-white overflow-x-hidden overflow-y-scroll"
       >
         <Nav />
-        <div className="flex flex-col items-center justify-evenly ">
+        <div className="flex flex-col items-center justify-around ">
           <HomeContent />
+          <Experience />
           <Projects />
           <Skills />
         </div>

@@ -7,13 +7,13 @@ import SkillsCard from "./SkillsCard";
 const Skills = () => {
   return (
     <>
-      <div id="Skills" className="  mt-32 md:mt-42">
+      <div id="Skills" className="  mt-32 md:mt-44">
         <h1 className="uppercase font-semibold text-center lg:text-left text-3xl sm:text-6xl">
           Skills
         </h1>
 
         <div className="flex flex-col justify-center items-center md:block">
-          <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-20 ">
+          <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-20 ">
             {skills.map((skill, index) => (
               <SkillsCard key={index} skill={skill} />
             ))}

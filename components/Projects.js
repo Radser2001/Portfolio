@@ -4,7 +4,7 @@ import projectsData from "../lib/projectsList";
 const Projects = () => {
   return (
     <>
-      <div id="Projects" className="  mt-32 md:mt-42">
+      <div id="Projects" className=" mt-32 md:mt-44">
         <h1 className="uppercase font-semibold text-center lg:text-left text-3xl sm:text-6xl ">
           Projects
         </h1>
@@ -23,7 +23,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="text-xl text-center bg-sky-500 p-2 rounded cursor-pointer w-3/12">
+          <div className="w-8/12 text-base md:w-4/12 md:text-xl text-center border transition ease-in duration-100  border-sky-400 hover:bg-sky-500 p-3 rounded cursor-pointer ">
             <Link href="/projects">View More Projects</Link>
           </div>
         </div>
