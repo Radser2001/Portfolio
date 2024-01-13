@@ -47,7 +47,7 @@ const Projects = () => {
             <Link href="/">Home</Link> &#707; More Projects
           </h1>
 
-          <div className="text-center mt-4  mb-4 md:mt-10 md:mb-10 flex flex-row items-center justify-center">
+          <div className="text-center mt-4  mb-4 md:mt-10 md:mb-10 flex flex-col sm:flex-row items-center justify-center">
             <input
               type="text"
               placeholder="Search projects..."
@@ -63,11 +63,11 @@ const Projects = () => {
               >
                 {selectedLanguage || "Technology"}
               </div>
-              <ul className="p-2 shadow menu dropdown-content z-[1] bg-[#131313] rounded w-96 h-80">
+              <ul className="p-1 sm:p-2 shadow menu dropdown-content z-[1] bg-slate-800 rounded w-[380px] h-[600px] sm:h-[500px] md:h-80 text-wrap">
                 {skills.map((skill, index) => (
                   <li key={index}>
                     <button
-                      className=" text-left hover:bg-[#1D232A] p-2 rounded"
+                      className=" text-left w-4/12 hover:bg-[#1D232A] p-2 rounded"
                       onClick={() => handleLanguageClick(skill.name)}
                     >
                       {skill.name}

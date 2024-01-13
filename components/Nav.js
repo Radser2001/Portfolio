@@ -42,8 +42,8 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden md:flex">
-          <Image src={logo} width={50} height={50} alt="Logo" />
+        <div className="hidden md:flex ml-5">
+          <Image src={logo} width={70} height={70} alt="Logo" />
         </div>
       </div>
       <div className="navbar-end hidden md:flex">
@@ -52,7 +52,7 @@ const Nav = () => {
             <Link href="/#Home">Home</Link>
           </li>
           <li className="mr-5 btn btn-ghost font-normal text-lg lg:text-xl">
-            <Link href="/#Home">Experience</Link>
+            <Link href="/#Experience">Experience</Link>
           </li>
           <li className="mr-5 btn btn-ghost font-normal text-lg lg:text-xl">
             <Link href="/#Projects">Projects</Link>
