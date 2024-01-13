@@ -60,13 +60,13 @@ const Projects = () => {
               {selectedLanguage || "Technology"}
             </div>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-[#131313] rounded w-96 h-80">
-              {skills.map((language, index) => (
+              {skills.map((skill, index) => (
                 <li key={index}>
                   <button
                     className=" text-left hover:bg-[#1D232A] p-2 rounded"
-                    onClick={() => handleLanguageClick(language)}
+                    onClick={() => handleLanguageClick(skill.name)}
                   >
-                    {language}
+                    {skill.name}
                   </button>
                 </li>
               ))}
