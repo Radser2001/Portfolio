@@ -1,109 +1,30 @@
-import ombs from "../public/ombs.png";
-import UniEventPro from "../public/UniEventPro.png";
-import ovspms from "../public/ovspms.png";
-import ooms from "../public/ooms.png";
-import mrs from "../public/MovieRecommendationSystem.png";
-import dms from "../public/DisneyMovieScraper.png";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
+import projectsData from "../lib/projectsList";
 const Projects = () => {
-  const projectsData = [
-    {
-      projectName: "Movie Recommendation System",
-      image: mrs,
-      techStack: [
-        "NextJS",
-        "Flask",
-        "Python",
-        "Pandas",
-        "Numpy",
-        "MongoDB",
-        "TypeScript",
-        "Prisma",
-        "TailwindCSS",
-        "MongoDB",
-      ],
-      projectUrl:
-        "https://github.com/Radser2001/Movie-Recommendation-System-Frontend",
-    },
-    {
-      projectName: "Disney Movies Web Scraper",
-      image: dms,
-      techStack: ["Python", "Pandas", "Numpy", "Jupyter Notebook"],
-      projectUrl: "https://github.com/Radser2001/Disney-Movies-Web-Scraper",
-    },
-    {
-      projectName: "Online Event Management System",
-      image: UniEventPro,
-      techStack: [
-        "MongoDB",
-        "ExpressJS",
-        "ReactJS",
-        "NodeJS",
-        "TailwindCSS",
-        "MaterialUI",
-      ],
-      projectUrl:
-        "https://github.com/Radser2001/Online-Event-Management-System",
-    },
-
-    {
-      projectName: "Online Vehicle Spare Parts Management System",
-      image: ovspms,
-      techStack: [
-        "JSP",
-        "Servlet",
-        "MySQL",
-        "HTML",
-        "TailwindCSS",
-        "JavaScript",
-      ],
-      projectUrl:
-        "https://github.com/Radser2001/Online-Vehicle-Spare-Parts-Management-System",
-    },
-    {
-      projectName: "Online Movie Booking System",
-      image: ombs,
-      techStack: ["HTML", "CSS", "PHP", "JavaScript"],
-      projectUrl: "https://github.com/Radser2001/Online-Movie-Booking-System",
-    },
-    {
-      projectName: "Online Outpatient Management System",
-      image: ooms,
-      techStack: [
-        "MongoDB",
-        "ExpressJS",
-        "ReactJS",
-        "NodeJS",
-        "TailwindCSS",
-        "MaterialUI",
-      ],
-      projectUrl: "https://github.com/Radser2001/outpatient_management_system",
-    },
-  ];
   return (
     <>
-      <div id="Projects" className="font-mono mt-40 lg:mr-40">
-        <h1 className="uppercase font-semibold text-center md:text-left text-3xl sm:text-6xl ">
+      <div id="Projects" className=" mt-32 md:mt-44">
+        <h1 className="uppercase font-semibold text-center lg:text-left text-3xl sm:text-6xl ">
           Projects
         </h1>
         <div className="flex flex-col justify-center items-center ">
-          {/* <div className="lg:grid lg:grid-cols-2 lg:gap-x-32 flex flex-col items-center justify-center mt-20"> */}
-          <div className="grid grid-cols-1 content-center xl:grid-cols-3 lg:gap-4 mt-20">
-            {projectsData.map((project, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-20">
+            {projectsData.slice(0, 6).map((project, index) => (
               <ProjectCard
                 key={index}
-                projectName={project.projectName}
+                name={project.name}
                 image={project.image}
+                description={project.description}
                 techStack={project.techStack}
-                projectUrl={project.projectUrl}
+                url={project.url}
               />
             ))}
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="text-xl text-center bg-sky-500 p-2 rounded cursor-pointer w-3/12">
-            <Link href="/projects">View More</Link>
+          <div className="w-8/12 text-base md:w-4/12 md:text-xl text-center border transition ease-in duration-100  border-sky-400 hover:bg-sky-500 p-3 rounded cursor-pointer ">
+            <Link href="/projects">View More Projects</Link>
           </div>
         </div>
       </div>
