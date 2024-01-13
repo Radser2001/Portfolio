@@ -26,10 +26,10 @@ export default function Home() {
         className="w-full h-screen bg-slate-800 overflow-x-hidden overflow-y-scroll"
       >
         <Nav />
-        <div className="flex flex-col items-center ">
+        <div className="flex flex-col items-center justify-evenly ">
           <HomeContent />
-          <Skills />
           <Projects />
+          <Skills />
         </div>
         <Footer />
       </main>

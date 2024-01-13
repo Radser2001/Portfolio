@@ -7,7 +7,7 @@ const HomeContent = () => {
   return (
     <>
       <div id="Home" className="font-mono mt-32 md:mt-42 ">
-        <h1 className="animate-fade-up animate-ease-in-out uppercase md:h-12  text-center lg:text-left text-5xl md:text-7xl font-extrabold mt-9 mb-10">
+        <h1 className="uppercase md:h-12  text-center lg:text-left text-5xl md:text-7xl font-extrabold mt-9 mb-10">
           Hello World!
         </h1>
         <h1 className="flex uppercase md:h-50 text-5xl md:text-7xl font-extrabold text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
