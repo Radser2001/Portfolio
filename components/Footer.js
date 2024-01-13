@@ -7,7 +7,7 @@ import logo from "../public/logo.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="footer mt-20 shadow-xl bg-slate-800 items-center p-4 text-white">
+      <footer className="footer mt-20 shadow-xl bg-slate-800 flex flex-col md:flex-row items-center justify-between  p-4 text-white">
         <aside className="items-center grid-flow-col">
           <Image src={logo} width={36} height={36} alt="logo" />
           <p>
