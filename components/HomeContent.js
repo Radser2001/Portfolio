@@ -6,7 +6,7 @@ import Image from "next/image";
 const HomeContent = () => {
   return (
     <>
-      <div id="Home" className="font-mono mt-32 md:mt-42 ">
+      <div id="Home" className="  mt-32 md:mt-42 ">
         <h1 className="uppercase md:h-12  text-center lg:text-left text-5xl md:text-7xl font-extrabold mt-9 mb-10">
           Hello World!
         </h1>

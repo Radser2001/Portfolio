@@ -7,7 +7,7 @@ import SkillsCard from "./SkillsCard";
 const Skills = () => {
   return (
     <>
-      <div id="Skills" className="font-mono mt-32 md:mt-42">
+      <div id="Skills" className="  mt-32 md:mt-42">
         <h1 className="uppercase font-semibold text-center lg:text-left text-3xl sm:text-6xl">
           Skills
         </h1>

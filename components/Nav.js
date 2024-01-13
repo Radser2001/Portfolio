@@ -3,8 +3,8 @@ import logo from "../public/logo.svg";
 import Image from "next/image";
 const Nav = () => {
   return (
-    // <nav className="sticky top-0 z-50 w-full bg-slate-800 font-mono flex justify-center  items-center md:justify-end md:items-center p-6  pr-8 pl-8 ">
-    <div className="sticky top-0 z-50 navbar bg-slate-800 shadow-xl text-white">
+    // <nav className="sticky top-0 z-50 w-full bg-slate-800   flex justify-center  items-center md:justify-end md:items-center p-6  pr-8 pl-8 ">
+    <div className="sticky top-0 z-50    navbar bg-slate-800 shadow-xl text-white">
       <div className="navbar-start">
         {/* Responsive menu */}
         <div className="dropdown">

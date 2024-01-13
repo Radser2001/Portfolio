@@ -4,7 +4,7 @@ import projectsData from "../lib/projectsList";
 const Projects = () => {
   return (
     <>
-      <div id="Projects" className="font-mono mt-32 md:mt-42">
+      <div id="Projects" className="  mt-32 md:mt-42">
         <h1 className="uppercase font-semibold text-center lg:text-left text-3xl sm:text-6xl ">
           Projects
         </h1>
