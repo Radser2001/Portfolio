@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import githubIcon from "../../public/githubIcon.svg";
-import linkedinIcon from "../../public/linkedinIcon.svg";
-import mailIcon from "../../public/mailIcon.svg";
-import logo from "../../public/logo.svg";
+import githubIcon from "../../public/common/githubIcon.svg";
+import linkedinIcon from "../../public/common/linkedinIcon.svg";
+import mailIcon from "../../public/common/mailIcon.svg";
+import logo from "../../public/common/logo.svg";
 const Footer = () => {
   return (
     <>

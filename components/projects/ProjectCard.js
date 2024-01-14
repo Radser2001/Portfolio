@@ -1,7 +1,7 @@
 import ProjectDescription from "./ProjectDescription";
 import { useState } from "react";
-import papersIcon from "../../public/papers.svg";
-import documentIcon from "../../public/documentIcon.svg";
+import papersIcon from "../../public/common/papers.svg";
+import documentIcon from "../../public/common/documentIcon.svg";
 import Image from "next/image";
 
 const ProjectCard = ({ name, description, image, techStack, url }) => {

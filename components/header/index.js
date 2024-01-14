@@ -1,6 +1,6 @@
 import React from "react";
-import githubIcon from "../../public/githubIcon.svg";
-import linkedinIcon from "../../public/linkedinIcon.svg";
+import githubIcon from "../../public/common/githubIcon.svg";
+import linkedinIcon from "../../public/common/linkedinIcon.svg";
 import Image from "next/image";
 
 const About = () => {
