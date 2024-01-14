@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
-import projectsData from "../lib/projectsList";
+import projectsData from "../../lib/projectsList";
 const Projects = () => {
   return (
     <>

@@ -1,8 +1,5 @@
 import React from "react";
-import skills from "../lib/skills";
-import react from "../public/skills/react.svg";
-import node from "../public/skills/nodeJS.svg";
-import Image from "next/image";
+import skills from "../../lib/skills";
 import SkillsCard from "./SkillsCard";
 const Skills = () => {
   return (

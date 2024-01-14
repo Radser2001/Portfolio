@@ -1,4 +1,4 @@
-import workIcon from "../public/work.svg";
+import workIcon from "../../public/work.svg";
 import Image from "next/image";
 
 const ExperienceCard = ({ experience }) => {

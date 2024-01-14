@@ -1,4 +1,4 @@
-import workExperience from "../lib/workExperience";
+import workExperience from "../../lib/workExperience";
 import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
