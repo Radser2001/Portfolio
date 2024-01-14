@@ -2,10 +2,8 @@ import projectsData from "../../lib/projectsList";
 import skills from "../../lib/skills";
 import ProjectCard from "../../components/projects/ProjectCard";
 import { useState } from "react";
-import Footer from "../../components/shared/Footer";
 import Link from "next/link";
 import Head from "next/head";
-import Nav from "../../components/shared/Nav";
 
 const Projects = () => {
   const [searchInput, setSearchInput] = useState("");
