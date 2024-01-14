@@ -1,4 +1,4 @@
-import ProjectDescription from "./ProjectDescription";
+import ProjectDescription from "./ProjectModal";
 import { useState } from "react";
 
 const ProjectCard = ({ name, description, image, techStack, url }) => {

@@ -1,11 +1,11 @@
 import projectsData from "../../lib/projectsList";
 import skills from "../../lib/skills";
-import ProjectCard from "../../components/ProjectCard";
+import ProjectCard from "../../components/projects/ProjectCard";
 import { useState } from "react";
-import Footer from "../../components/Footer";
+import Footer from "../../components/shared/Footer";
 import Link from "next/link";
 import Head from "next/head";
-import Nav from "../../components/Nav";
+import Nav from "../../components/shared/Nav";
 
 const Projects = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -30,18 +30,17 @@ const Projects = () => {
   };
   return (
     <>
-      <Nav />
+      <Head>
+        <title>Projects</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <div className="w-full font-mono">
+        <Nav />
+      </div>
       <div
         id="allProjects"
-        className="bg-slate-800 text-white overflow-x-hidden overflow-y-hidden"
+        className="bg-slate-800 font-mono text-white overflow-x-hidden overflow-y-hidden"
       >
-        <Head>
-          <title>Projects</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-        </Head>
         <div id="Projects" className="font-mono pt-20 bottom-0 p-10">
           <h1 className="uppercase font-semibold text-center text-3xl sm:text-6xl ">
             <Link href="/">Home</Link> &#707; More Projects
