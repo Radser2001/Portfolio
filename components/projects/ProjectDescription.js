@@ -14,7 +14,7 @@ const ProjectDescription = ({ project }) => {
             return (
               <div
                 key={index}
-                className="rounded-full border border-sky-500 p-1 px-4 hover:bg-sky-400 text-white"
+                className="rounded-md bg-sky-200 p-1 px-4 text-sky-900"
               >
                 {tech}
               </div>

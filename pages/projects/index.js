@@ -34,9 +34,7 @@ const Projects = () => {
         <title>Projects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="w-full font-mono">
-        <Nav />
-      </div>
+
       <div
         id="allProjects"
         className="bg-slate-800 font-mono text-white overflow-x-hidden overflow-y-hidden"
@@ -46,38 +44,40 @@ const Projects = () => {
             <Link href="/">Home</Link> &#707; More Projects
           </h1>
 
-          <div className="text-center mt-4  mb-4 md:mt-10 md:mb-10 flex flex-col sm:flex-row items-center justify-center">
+          <div className="text-center mt-4  mb-4 md:mt-10 md:mb-10 flex sm:flex-row items-center justify-center">
             <input
               type="text"
               placeholder="Search projects..."
               value={searchInput}
               onChange={handleSearchInputChange}
-              className="input input-bordered bg-[#1D232A] text-white mt-8 input-info w-full max-w-xs"
+              className="input input-bordered rounded-none bg-[#1D232A] focus:outline-none text-white mt-8 input-info w-full max-w-xs"
             />
-            <div className="dropdown">
-              <div
-                tabIndex="0"
-                role="button"
-                className="mt-8 text-base text-white md:text-xl btn bg-sky-500 hover:bg-sky-600"
-              >
-                {selectedLanguage || "Technology"}
+            <div className="hidden md:flex">
+              <div className="dropdown">
+                <div
+                  tabIndex="0"
+                  role="button"
+                  className="mt-8 text-base rounded-none text-white md:text-lg btn bg-sky-500 hover:bg-sky-600"
+                >
+                  {selectedLanguage || "Technology"}
+                </div>
+                <ul className="p-1 sm:p-2 shadow menu dropdown-content z-[1] bg-slate-800 w-[380px] h-[600px] sm:h-[500px] md:h-80 text-wrap">
+                  {skills.map((skill, index) => (
+                    <li key={index} className="">
+                      <button
+                        className=" text-left hover:bg-[#1D232A] p-2 rounded"
+                        onClick={() => handleLanguageClick(skill.name)}
+                      >
+                        {skill.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="p-1 sm:p-2 shadow menu dropdown-content z-[1] bg-slate-800 rounded w-[380px] h-[600px] sm:h-[500px] md:h-80 text-wrap">
-                {skills.map((skill, index) => (
-                  <li key={index}>
-                    <button
-                      className=" text-left w-4/12 hover:bg-[#1D232A] p-2 rounded"
-                      onClick={() => handleLanguageClick(skill.name)}
-                    >
-                      {skill.name}
-                    </button>
-                  </li>
-                ))}
-              </ul>
             </div>
             <button
               onClick={handleReset}
-              className="text-xl mt-8 md:text-2xl rounded transition ease-in duration-100 bg-red-500 hover:bg-red-600 p-2"
+              className="text-base mt-8 md:text-lg btn rounded-none text-white transition ease-in duration-100 bg-red-500 hover:bg-red-600 p-2"
             >
               Reset
             </button>
