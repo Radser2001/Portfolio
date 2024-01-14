@@ -69,7 +69,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
           </div>
 
           <dialog id={dialogId} className="modal">
-            <div className="modal-box w-11/12 max-w-3xl">
+            <div className="modal-box bg-slate-800 w-11/12 max-w-3xl">
               <ProjectDescription project={projectDetails} />
 
               <div className="modal-action flex flex-row items-center justify-evenly">
