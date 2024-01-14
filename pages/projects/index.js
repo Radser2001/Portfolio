@@ -34,9 +34,7 @@ const Projects = () => {
         <title>Projects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="w-full font-mono">
-        <Nav />
-      </div>
+
       <div
         id="allProjects"
         className="bg-slate-800 font-mono text-white overflow-x-hidden overflow-y-hidden"
@@ -111,9 +109,6 @@ const Projects = () => {
               ))}
             </div>
           </div>
-        </div>{" "}
-        <div className="">
-          <Footer />
         </div>
       </div>
     </>

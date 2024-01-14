@@ -9,14 +9,12 @@ import Experience from "../components/experience";
 export default function Home() {
   return (
     <>
-      <Nav />
       <div className="flex flex-col items-center justify-around ">
         <About />
         <Experience />
         <Projects />
         <Skills />
       </div>
-      <Footer />
     </>
   );
 }

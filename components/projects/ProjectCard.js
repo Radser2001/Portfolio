@@ -23,7 +23,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
 
   return (
     <div>
-      <div className="card w-72 rounded-md md:w-[350px] md:h-[320px] bg-neutral  shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-default duration-300 group">
+      <div className="card w-72 rounded-sm md:w-[350px] md:h-[320px] bg-neutral  shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-default duration-300 group">
         <div className="card-body">
           <div className="flex flex-row items-start justify-between">
             <Image
@@ -39,7 +39,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
               alt="project card icon"
             />
           </div>
-          <h2 className="card-title">{name}</h2>
+          <h2 className="card-title mt-1">{name}</h2>
           <p className="text-neutral-content">{description}</p>
 
           <div className="card-actions mt-3 justify-end">
@@ -56,7 +56,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
               }}
               className="p-2 px-3 rounded-sm bg-sky-500 text-white transition-transform duration-300"
             >
-              Read More
+              See More
             </button>
             <a
               href={url}
@@ -72,9 +72,16 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
             <div className="modal-box w-11/12 max-w-3xl">
               <ProjectDescription project={projectDetails} />
 
-              <div className="modal-action">
+              <div className="modal-action flex flex-row items-center justify-evenly">
                 <form method="dialog">
-                  <button className="btn btn-error text-white">Close</button>
+                  <button className="btn btn-error text-white rounded-sm">
+                    Close
+                  </button>
+                </form>
+                <form method="dialog">
+                  <button className="btn btn-info text-white rounded-sm">
+                    GitHub
+                  </button>
                 </form>
               </div>
             </div>

@@ -1,4 +1,8 @@
 @tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -10,10 +14,4 @@ a {
 * {
   margin: 0;
   box-sizing: border-box;
-}
-
-@layer base {
-  html {
-    @apply scroll-smooth;
-  }
 }
