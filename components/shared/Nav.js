@@ -1,9 +1,8 @@
 import Link from "next/link";
-import logo from "../../public/logo.svg";
+import logo from "../../public/common/logo.svg";
 import Image from "next/image";
 const Nav = () => {
   return (
-    // <nav className="sticky top-0 z-50 w-full bg-slate-800 font-mono flex justify-center  items-center md:justify-end md:items-center p-6  pr-8 pl-8 ">
     <div className="sticky top-0 z-50 navbar w-full font-mono bg-slate-800 shadow-xl text-white">
       <div className="navbar-start">
         {/* Responsive menu */}
@@ -26,18 +25,18 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-lg dropdown-content text-2xl mt-3 z-[1] p-5 shadow bg-slate-800 rounded-box w-72"
+            className="menu menu-lg dropdown-content text-xl mt-3 z-[1] p-5 shadow bg-slate-800 rounded-box w-72"
           >
-            <li>
+            <li className="p-2 mt-2">
               <Link href="/#Home">Home</Link>
             </li>
-            <li>
+            <li className="p-2 mt-2">
               <Link href="/#Home">Experience</Link>
             </li>
-            <li>
+            <li className="p-2 mt-2">
               <Link href="/#Projects">Projects</Link>
             </li>
-            <li>
+            <li className="p-2 mt-2">
               <Link href="/#Skills">Skills</Link>
             </li>
           </ul>
@@ -63,7 +62,6 @@ const Nav = () => {
         </ul>
       </div>
     </div>
-    // </nav>
   );
 };
 

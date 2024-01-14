@@ -1,10 +1,10 @@
-import workIcon from "../../public/work.svg";
+import workIcon from "../../public/common/work.svg";
 import Image from "next/image";
 
 const ExperienceCard = ({ experience }) => {
   return (
     <div className="mt-10 flex flex-col ">
-      <div className="card rounded transition-transform hover:-translate-y-2 hover:cursor-default duration-300 w-[300px] md:w-[500px] lg:w-[730px] xl:w-[1120px] bg-neutral shadow-xl">
+      <div className="card rounded-sm transition-transform hover:-translate-y-2 hover:cursor-default duration-300 w-[300px] md:w-[500px] lg:w-[730px] xl:w-[1120px] bg-neutral shadow-xl">
         <div className="card-body">
           <div className="card-title  flex flex-col justify-center lg:flex-row lg:justify-between items-center">
             <div className="flex flex-col lg:flex-row items-center ">

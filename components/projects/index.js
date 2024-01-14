@@ -23,7 +23,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="w-8/12 text-base md:w-4/12 md:text-xl text-center border transition ease-in duration-100  border-sky-400 hover:bg-sky-500 p-3 rounded cursor-pointer ">
+          <div className="w-8/12 text-base md:w-4/12 md:text-xl text-center border transition ease-in duration-100  border-sky-400 hover:bg-sky-500 p-3 rounded-sm cursor-pointer ">
             <Link href="/projects">View More Projects</Link>
           </div>
         </div>
