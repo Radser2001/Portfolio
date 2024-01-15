@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="👋 Welcome! I'm Supuni Eleesha Randeniya, a passionate Full Stack web developer and undergraduate from Sri Lanka. Explore my portfolio for a showcase of dynamic and responsive web projects. From innovative interfaces to seamless user experiences, discover how I bring creativity and functionality together. Let's connect and build something amazing on the web!"
+          content="Hello, World! I'm Supuni Eleesha Randeniya, a passionate Full Stack Developer and an Undergraduate from Sri Lanka. Explore my portfolio for a showcase of dynamic and responsive projects. From innovative interfaces to seamless user experiences, discover how I bring creativity and functionality together. Let's connect and build something!"
         />
         <meta name="author" content="Supuni Eleesha Randeniya" />
         <link rel="author" href="https://radser2001.vercel.app/" />
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="👋 Welcome! I'm Supuni Eleesha Randeniya, a passionate Full Stack web developer and undergraduate from Sri Lanka. Explore my portfolio for a showcase of dynamic and responsive web projects. From innovative interfaces to seamless user experiences, discover how I bring creativity and functionality together. Let's connect and build something amazing on the web!"
+          content="Hello, World! I'm Supuni Eleesha Randeniya, a passionate Full Stack Developer and an Undergraduate from Sri Lanka. Explore my portfolio for a showcase of dynamic and responsive projects. From innovative interfaces to seamless user experiences, discover how I bring creativity and functionality together. Let's connect and build something!"
         />
         <meta property="og:url" content="https://radser2001.vercel.app/" />
       </Head>
