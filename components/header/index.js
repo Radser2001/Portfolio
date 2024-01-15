@@ -1,6 +1,9 @@
 import React from "react";
 import githubIcon from "../../public/common/githubIcon.svg";
 import linkedinIcon from "../../public/common/linkedinIcon.svg";
+import facebookIcon from "../../public/common/facebookIcon.svg";
+import instaIcon from "../../public/common/instaIcon.svg";
+
 import Image from "next/image";
 
 const About = () => {
@@ -13,7 +16,7 @@ const About = () => {
         I&apos;m Supuni Eleesha <br className="hidden lg:flex xl:hidden" />{" "}
         Randeniya
       </h1>
-      <h1 className="mt-10 text-xl md:text-3xl text-center lg:text-left">
+      <h1 className="mt-10 text-2xl md:text-3xl text-center lg:text-left">
         <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between ">
           <p>
             Undergraduate at SLIIT
@@ -33,25 +36,35 @@ const About = () => {
           className="transition-transform hover:-translate-y-1 duration-300"
           rel="noopener noreferrer"
         >
-          <Image
-            src={githubIcon}
-            alt="Github"
-            width={30}
-            height={30}
-            className=""
-          />
+          <Image src={githubIcon} alt="Github" width={28} height={28} />
         </a>
         <a
           href="https://www.linkedin.com/in/supuni-eleesha/"
+          target="_blank"
+          className="ml-5 transition-transform hover:-translate-y-1 duration-300"
+          rel="noopener noreferrer"
+        >
+          <Image src={linkedinIcon} alt="Linkedin" width={28} height={28} />
+        </a>
+        <a
+          href="https://facebook.com/radser2001/"
+          target="_blank"
+          className="ml-4 transition-transform hover:-translate-y-1 duration-300"
+          rel="noopener noreferrer"
+        >
+          <Image src={facebookIcon} alt="Facebook" width={43} height={43} />
+        </a>
+        <a
+          href="https://www.instagram.com/radser2001/"
           target="_blank"
           className="ml-4 transition-transform hover:-translate-y-1 duration-300"
           rel="noopener noreferrer"
         >
           <Image
-            src={linkedinIcon}
-            alt="Linkedin"
-            width={30}
-            height={30}
+            src={instaIcon}
+            alt="Instagram"
+            width={32}
+            height={32}
             className=""
           />
         </a>
@@ -61,7 +74,7 @@ const About = () => {
           href="mailto:supuni.randeniya@gmail.com"
           className="text-xl md:text-2xl transition ease-in duration-100 border text-white border-sky-400 hover:bg-sky-500 p-3 rounded-sm"
         >
-          Contact Me &#8594;
+          Hire Me &#8594;
         </a>
       </div>
     </div>
