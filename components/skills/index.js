@@ -10,7 +10,7 @@ const Skills = () => {
         </h1>
 
         <div className="flex flex-col justify-center items-center md:block">
-          <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 mt-20 ">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 mt-20 ">
             {skills.map((skill, index) => (
               <SkillsCard key={index} skill={skill} />
             ))}

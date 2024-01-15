@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
 
       <main
         data-theme="dark"
-        className="h-screen w-full overflow-x-hidden font-mono bg-slate-800 text-white"
+        className="h-screen w-full font-mono bg-slate-800 text-white"
       >
         <Nav />
         {children}

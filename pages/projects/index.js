@@ -35,7 +35,7 @@ const Projects = () => {
 
       <div
         id="allProjects"
-        className="bg-slate-800 font-mono text-white overflow-x-hidden overflow-y-hidden"
+        className="bg-slate-800 font-mono text-white overflow-y-hidden"
       >
         <div id="Projects" className="font-mono pt-20 bottom-0 p-10">
           <h1 className="uppercase font-semibold text-center text-3xl sm:text-6xl ">
