@@ -31,12 +31,11 @@ const Layout = ({ children }) => {
         />
         <meta property="og:url" content="https://radser2001.vercel.app/" />
       </Head>
-
+      <Nav />
       <main
         data-theme="dark"
-        className="h-screen w-full font-mono bg-slate-800 text-white"
+        className="w-full font-mono bg-slate-800 text-white"
       >
-        <Nav />
         {children}
         <Footer />
       </main>
