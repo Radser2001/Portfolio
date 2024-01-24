@@ -78,11 +78,15 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
                     Close
                   </button>
                 </form>
-                <form method="dialog">
-                  <button className="btn btn-info text-white rounded-sm">
-                    GitHub
-                  </button>
-                </form>
+
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-info text-white rounded-sm"
+                >
+                  GitHub
+                </a>
               </div>
             </div>
           </dialog>
