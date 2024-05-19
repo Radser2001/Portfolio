@@ -46,14 +46,14 @@ const About = () => {
         >
           <Image src={linkedinIcon} alt="Linkedin" width={28} height={28} />
         </a>
-        <a
+        {/* <a
           href="https://facebook.com/radser2001/"
           target="_blank"
           className="ml-4 transition-transform hover:-translate-y-1 duration-300"
           rel="noopener noreferrer"
         >
           <Image src={facebookIcon} alt="Facebook" width={43} height={43} />
-        </a>
+        </a> */}
         <a
           href="https://www.instagram.com/radser2001/"
           target="_blank"
@@ -74,7 +74,7 @@ const About = () => {
           href="mailto:supuni.randeniya@gmail.com"
           className="text-xl md:text-2xl transition ease-in duration-100 border text-white border-sky-400 hover:bg-sky-500 p-3 rounded-sm"
         >
-          Hire Me &#8594;
+          Contact Me &#8594;
         </a>
       </div>
     </div>
