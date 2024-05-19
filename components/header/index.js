@@ -46,14 +46,14 @@ const About = () => {
         >
           <Image src={linkedinIcon} alt="Linkedin" width={28} height={28} />
         </a>
-        <a
+        {/* <a
           href="https://facebook.com/radser2001/"
           target="_blank"
           className="ml-4 transition-transform hover:-translate-y-1 duration-300"
           rel="noopener noreferrer"
         >
           <Image src={facebookIcon} alt="Facebook" width={43} height={43} />
-        </a>
+        </a> */}
         <a
           href="https://www.instagram.com/radser2001/"
           target="_blank"
