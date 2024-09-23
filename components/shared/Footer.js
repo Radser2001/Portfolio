@@ -4,7 +4,6 @@ import githubIcon from "../../public/common/githubIcon.svg";
 import linkedinIcon from "../../public/common/linkedinIcon.svg";
 import mailIcon from "../../public/common/mailIcon.svg";
 import logo from "../../public/common/logo.svg";
-import facebookIcon from "../../public/common/facebookIcon.svg";
 import instaIcon from "../../public/common/instaIcon.svg";
 
 const Footer = () => {
@@ -34,14 +33,6 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <Image src={linkedinIcon} alt="Linkedin" width={24} height={24} />
-          </a>
-          <a
-            href="https://facebook.com/radser2001/"
-            target="_blank"
-            className="ml-4 transition-transform hover:-translate-y-1 duration-300"
-            rel="noopener noreferrer"
-          >
-            <Image src={facebookIcon} alt="Facebook" width={34} height={34} />
           </a>
           <a
             href="https://www.instagram.com/radser2001/"
