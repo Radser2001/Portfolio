@@ -56,6 +56,18 @@ const ExperienceCard = ({ experience }) => {
               </button>
             )}
           </div>
+          <div>
+            <div className="justify-start mt-5 flex-wrap hidden md:flex">
+              {experience.techStack.map((tech, index) => (
+                <div
+                  key={index}
+                  className="text-slate-200 p-1 px-1 m-1 text-xs font-bold"
+                >
+                  {tech}
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
