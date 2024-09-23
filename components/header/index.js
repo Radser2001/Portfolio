@@ -16,17 +16,13 @@ const About = () => {
         I&apos;m Supuni Eleesha <br className="hidden lg:flex xl:hidden" />{" "}
         Randeniya
       </h1>
-      <h1 className="mt-10 text-2xl md:text-3xl text-center lg:text-left">
-        <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between ">
+      <h1 className="mt-10 text-xl md:text-2xl text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-start uppercase">
           <p>
-            Undergraduate at SLIIT
-            <span className="hidden xl:inline ml-6 mr-2">|</span>
-          </p>
-          <p className="mt-1 xl:mt-0">
             Full Stack Developer
-            <span className="hidden xl:inline ml-6 mr-2">|</span>
+            <span className="hidden lg:inline mr-2">|</span>
           </p>
-          <p className="mt-1 xl:mt-0">AI / ML Enthusiast</p>
+          <p className="mt-1 lg:mt-0">Undergraduate at SLIIT</p>
         </div>
       </h1>
       <div className="mt-10 flex items-center justify-center lg:justify-start">
