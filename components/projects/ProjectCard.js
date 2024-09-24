@@ -23,7 +23,7 @@ const ProjectCard = ({ name, description, image, techStack, url }) => {
 
   return (
     <div>
-      <div className="card w-72 rounded-sm md:w-[350px] md:h-[320px] bg-neutral  shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-default duration-300 group">
+      <div className="card w-72 rounded-sm md:w-[350px] md:h-[355px] bg-neutral  shadow-xl mb-20 transition-transform hover:-translate-y-2 hover:cursor-default duration-300 group">
         <div className="card-body">
           <div className="flex flex-row items-start justify-between">
             <Image

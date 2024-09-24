@@ -61,7 +61,7 @@ const ExperienceCard = ({ experience }) => {
               {experience.techStack.map((tech, index) => (
                 <div
                   key={index}
-                  className="text-slate-200 p-1 px-1 m-1 text-xs font-bold"
+                  className="rounded-sm bg-sky-200 text-slate-800 p-1 px-1 m-1 text-xs font-bold"
                 >
                   {tech}
                 </div>

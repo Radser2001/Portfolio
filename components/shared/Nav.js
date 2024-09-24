@@ -41,9 +41,9 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden md:flex ml-5">
-          <Image src={logo} width={70} height={70} alt="Logo" />
-        </div>
+        <Link href="/#Home" className="hidden md:flex ml-5 cursor-pointer">
+          <Image src={logo} width={70} height={70} alt="Logo" className="cursor-pointer" />
+        </Link>
       </div>
       <div className="navbar-end hidden md:flex">
         <ul className="flex flex-row items-center justify-between px-1 text-lg lg:text-xl ">

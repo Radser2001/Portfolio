@@ -2,7 +2,7 @@
 
 ### <https://radser2001.vercel.app/>
 
-![image](https://github.com/Radser2001/Portfolio/assets/87631717/3d901f95-b574-4615-9f87-5ba43e2c9bec)
+![image](https://github.com/user-attachments/assets/1ca7c102-f10a-4767-8abf-e20cb8e4c3a7)
 
 ### Technologies used
 
