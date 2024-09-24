@@ -9,10 +9,10 @@ import Image from "next/image";
 const About = () => {
   return (
     <div id="Home" className="  mt-32 md:mt-42 ">
-      <h1 className="uppercase md:h-12 text-wrap text-center lg:text-left text-5xl md:text-7xl font-extrabold mt-9 mb-10">
+      <h1 className="uppercase md:h-12 text-wrap text-center lg:text-left text-6xl md:text-7xl font-extrabold mt-9 mb-10">
         Hello World!
       </h1>
-      <h1 className="flex uppercase md:h-50  text-5xl md:text-7xl font-extrabold text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
+      <h1 className="flex uppercase md:h-50  text-5xl md:text-[4.15rem] font-extrabold text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
         I&apos;m Supuni Eleesha <br className="hidden lg:flex xl:hidden" />{" "}
         Randeniya
       </h1>
