@@ -13,19 +13,19 @@ const About = () => {
         Hello World!
       </h1>
       <h1 className="flex uppercase md:h-50  text-5xl md:text-[4.15rem] font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">
-        I&apos;m Supuni Eleesha
-        Randeniya
+        I&apos;m Supuni Eleesha Randeniya
       </h1>
       <h1 className="mt-10 text-xl md:text-2xl text-center">
-        <div className="flex flex-col lg:flex-row uppercase items-center justify-center">
+        <div className="flex flex-col lg:flex-row uppercase items-center justify-center mt-2">
           <p>
-            Full Stack Developer
+            Final Year SE - Cardiff Met
             <span className="hidden lg:inline mr-2 ml-2">|</span>
           </p>
           <p className="mt-1 lg:mt-0">
-            AI / ML Enthusiast <span className="hidden lg:inline mr-2">|</span>
+            Finance & Tech Enthusiast
+            <span className="hidden lg:inline mr-2 ml-2">|</span>
           </p>
-          <p className="mt-1 lg:mt-0">Undergraduate at SLIIT</p>
+          <p className="mt-1 lg:mt-0">CIMA Cert BA (Reading)</p>
         </div>
       </h1>
       <div className="mt-14 flex items-center justify-center">
@@ -44,28 +44,6 @@ const About = () => {
           rel="noopener noreferrer"
         >
           <Image src={linkedinIcon} alt="Linkedin" width={28} height={28} />
-        </a>
-        {/* <a
-          href="https://facebook.com/radser2001/"
-          target="_blank"
-          className="ml-4 transition-transform hover:-translate-y-1 duration-300"
-          rel="noopener noreferrer"
-        >
-          <Image src={facebookIcon} alt="Facebook" width={43} height={43} />
-        </a> */}
-        <a
-          href="https://www.instagram.com/radser2001/"
-          target="_blank"
-          className="ml-4 transition-transform hover:-translate-y-1 duration-300"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={instaIcon}
-            alt="Instagram"
-            width={32}
-            height={32}
-            className=""
-          />
         </a>
       </div>
       <div className="mt-14 text-center ">

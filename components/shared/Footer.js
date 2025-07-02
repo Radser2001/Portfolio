@@ -35,20 +35,6 @@ const Footer = () => {
             <Image src={linkedinIcon} alt="Linkedin" width={24} height={24} />
           </a>
           <a
-            href="https://www.instagram.com/radser2001/"
-            target="_blank"
-            className="ml-4 transition-transform hover:-translate-y-1 duration-300"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src={instaIcon}
-              alt="Instagram"
-              width={25}
-              height={25}
-              className=""
-            />
-          </a>
-          <a
             href="mailto:supuni.randeniya@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
