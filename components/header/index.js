@@ -18,14 +18,14 @@ const About = () => {
       <h1 className="mt-10 text-xl md:text-2xl text-center">
         <div className="flex flex-col lg:flex-row uppercase items-center justify-center mt-2">
           <p>
-            Final Year SE - Cardiff Met
+            Software Developer
             <span className="hidden lg:inline mr-2 ml-2">|</span>
           </p>
           <p className="mt-1 lg:mt-0">
-            Finance & Tech Enthusiast
+            CIMA Cert BA (Reading)
             <span className="hidden lg:inline mr-2 ml-2">|</span>
           </p>
-          <p className="mt-1 lg:mt-0">CIMA Cert BA (Reading)</p>
+          <p className="mt-1 lg:mt-0">Finance & Tech Enthusiast</p>
         </div>
       </h1>
       <div className="mt-14 flex items-center justify-center">
